@@ -5,6 +5,8 @@ To start a new project clone this repo
 ```bash
 git clone git@github.com:bmarwane/react-redux-base-app.git your-app-name
 cd your-app-name
+rm -rf .git/
+git init
 npm install
 ```
 
